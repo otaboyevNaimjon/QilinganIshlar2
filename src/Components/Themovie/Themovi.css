@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+.
+{
+    width: 250px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px ;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.card img{
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card , h2 ,i {
+    font-size: 25px;
+    font-family: cursive;
+} */
+
+.popular__div{
+    margin-top: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.card img{
+    width: 200px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 20px;
+    /* margin-left: 20px; */
+}
+
+.card{ 
+    width: 250px;
+    height: 490px;
+    border-radius:10px ;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 2px 2px 10px 0px;
+    margin-top: 15px;
+    margin: 20px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.loadMore{
+    background-color: rgb(112, 112, 197);
+    color: #ffffff;
+    width: 55%;
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    position: absolute;
+    /* top: 2400px; */
+    left: 40%;
+}
+
+.JointheCommunity{
+    background-color: #ffffff;
+    color: blue;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.footer{
+    height: 50vh;
+    background-color: rgb(6, 2, 42);
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.footer .footer__div{
+       display: flex;
+       /* padding: 50px; */
+       color: #ffffff;
+       font-size: 25px;
+}
+
+/* .img{
+    position: absolute;
+    left: 230px;
+    top: 2350px;
+} */
+
+.h3{
+    background-color: rgb(217, 204, 204);
+    padding: 10px 15px;
+    border-radius: 15px; 
+    color:rgb(105, 99, 99) ;
+    margin-top: 15px;
+    text-align: center;
+}
+.people{
+    /* margin-top: 40px; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.people_card{
+    display: flex;
+    
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    flex-direction: row;
+
+}
+
+.images{
+    width: 150px;
+}
+
+.background__img{
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/sfjqJDmNqMIImO5khiddb9TARvO.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.submit{
+    /* padding: 10px 20px; */
+    color: white;
+    background-color: rgb(82, 188, 82);
+    border: none;
+    border-radius: 20px;
+    margin-left: -80px;
+}
+
+.submit2{
+    width: 100%;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+}
+
